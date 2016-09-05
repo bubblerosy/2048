@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #3232D2;
+  color:#D6EBFF ;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -12,7 +12,7 @@ body {
 
 input {
   display: inline-block;
-  background: #8f7a66;
+  background: #00CBF5;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -33,14 +33,14 @@ input {
     cursor: auto;
     background: #fcfbf9;
     font-weight: normal;
-    color: #776e65;
+    color: #3CBCFF;
     padding: 0 15px; }
     input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
-      color: #9d948c; }
+      color: #3CBCFF; }
     input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder {
-      color: #9d948c; }
+      color: #3CBCFF; }
     input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder {
-      color: #9d948c; }
+      color: #3CBCFF; }
 
 .heading:after {
   content: "";
@@ -85,7 +85,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #0080FF;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -104,7 +104,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #50D0FF; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -133,7 +133,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #3CBCFF;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -199,7 +199,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #32B2FF;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -408,26 +408,26 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: url('../FriendSHIP Tile Sets/2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: url('../FriendSHIP Tile Sets/4.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background: url('../FriendSHIP Tile Sets/88.jpg'); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: url('../FriendSHIP Tile Sets/16.jpg'); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: url('../FriendSHIP Tile Sets/32.jpg'); }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: url('../FriendSHIP Tile Sets/64.jpg'); }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background: url('../FriendSHIP Tile Sets/128.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -435,7 +435,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: url('../FriendSHIP Tile Sets/256.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -443,7 +443,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #edc850;
+    background: url('../FriendSHIP Tile Sets/512.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -451,7 +451,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f;
+    background: url('../FriendSHIP Tile Sets/1024.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -459,15 +459,15 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
+    background: url('../FriendSHIP Tile Sets/2048.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
+    color: #14E9FF;
+    background: #00D5FF;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -598,7 +598,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #14E9FF;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -669,7 +669,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #00CBF5;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -713,7 +713,7 @@ hr {
         margin-right: 5px; }
     .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #00CBF5;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -896,7 +896,7 @@ hr {
   font: inherit;
   color: inherit;
   display: inline-block;
-  background: #8f7a66;
+  background: #00CBF5;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -912,7 +912,7 @@ hr {
   position: relative;
   margin-left: 10px;
   display: inline-block;
-  background: #8f7a66;
+  background: #00CBF5;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -953,7 +953,7 @@ hr {
       left: 50%;
       margin-left: -7px; }
     .btc-donate .address code {
-      background-color: #bbada0;
+      background-color: #00CBF5;
       padding: 10px 15px;
       width: 100%;
       border-radius: 3px;
@@ -1067,7 +1067,7 @@ hr {
   -webkit-animation: pop-in-big 700ms ease 2s both;
   -moz-animation: pop-in-big 700ms ease 2s both;
   animation: pop-in-big 700ms ease 2s both;
-  background: #edc53f;
+  background: #00CBF5;
   color: white;
   padding: 18px;
   margin-top: 30px;
